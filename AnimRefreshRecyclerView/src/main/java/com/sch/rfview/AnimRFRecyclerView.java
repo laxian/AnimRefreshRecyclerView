@@ -217,7 +217,7 @@ public class AnimRFRecyclerView extends RecyclerView implements Runnable {
         isLoadingData = false;
         rfAnimView.setVisibility(GONE);
         // 内容不能充满一页时，刷新完自动获取下一页
-        smoothScrollBy(0, 1);
+        smoothScrollBy(0, 0);
     }
 
     @Override
